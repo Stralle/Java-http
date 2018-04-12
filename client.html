@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Client page</title>
+	</head>
+	
+	<body>
+		<h1>Add new contact or list them all</h1>
+		<form action="http://localhost:2072" method="GET" name="forma"> <!-- 2072 8113 -->
+			<table>
+				<tr>
+					<td>First and last name: </td>
+					<td><input type="text" name = "fullname" value="John Doe"></td>
+				</tr>
+				<tr>
+					<td>Cellphone number: </td>
+					<td><input type="text" name = "cellphone" value="0123456789"></td>
+				</tr>
+				<tr>
+					<td>
+					<input type="submit" style="background-color:blue; color:white; font-weight: bold;" name="add" value="ADD">
+					</td>
+					<td>
+					<input type="submit" style="background-color:green; color:white; font-weight: bold" name="list" value="LIST">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+
+</html>
